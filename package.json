@@ -1,6 +1,6 @@
 {
   "name": "pumpdotfun-sdk",
-  "version": "1.5.2",
+  "version": "1.5.2-vexelgray-fix",
   "description": "A simple SDK for interacting with pumpdotfun",
   "type": "module",
   "module": "./dist/esm/index.mjs",
@@ -30,16 +30,27 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rckprtr/pumpdotfun-sdk.git"
+    "url": "https://github.com/vexelgray/pumpdotfun-sdk.git"
   },
   "keywords": [
     "pumpdotfun",
     "sdk",
     "solana"
   ],
-  "author": "Rick Porter, kalloc, Elijah Bare",
+  "author": "Rick Porter, kalloc, Elijah Bare, vexelgray",
   "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/borsh": "^0.31.0" 
+  },
+  "peerDependencies": {
+    "@coral-xyz/anchor": "^0.31.0",
+    "@solana/spl-token": "^0.4.13", 
+    "@solana/web3.js": "^1.98.0"
+  },
   "devDependencies": {
+    "@coral-xyz/anchor": "^0.31.0",         
+    "@solana/spl-token": "0.4.13",         
+    "@solana/web3.js": "^1.98.0",        
     "@rollup/plugin-commonjs": "^28.0.3",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.1",
@@ -53,11 +64,5 @@
     "rollup": "^4.38.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2"
-  },
-  "dependencies": {
-    "@coral-xyz/anchor": "^0.31.0",
-    "@coral-xyz/borsh": "^0.31.0",
-    "@solana/spl-token": "0.4.13",
-    "@solana/web3.js": "^1.98.0"
   }
 }

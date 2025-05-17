@@ -1,6 +1,6 @@
 'use strict';
 
-var ieee754 = {};
+var base64Js = {};
 
-exports.__exports = ieee754;
+exports.__exports = base64Js;
 //# sourceMappingURL=index2.cjs.map

@@ -1,4 +1,4 @@
-var base64Js = {};
+var ieee754 = {};
 
-export { base64Js as __exports };
+export { ieee754 as __exports };
 //# sourceMappingURL=index3.mjs.map
